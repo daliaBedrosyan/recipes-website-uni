@@ -11,10 +11,12 @@
 <body class="bg-dark-subtle">
     <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
         <div class="container">
-            <a class="navbar-brand" href="#">Recipes</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <div class="d-flex align-items-center">
+                <a class="navbar-brand mb-0">Recipes World</a>
+                <img src="./resourses/pizza.png" alt="Pizza Logo" class="img-fluid ms-2" style="width: 30px;">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -22,34 +24,45 @@
                     <li class="nav-item"><a class="nav-link" href="recipes.html">Recipes</a></li>
                     <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="btn btn-outline-secondary border-2" href="index.html">Logout</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container mt-5 bg-secondary bg-gradient border border-secondary border-2 text-light p-3">
+    <div
+        class="container mt-5 border border-2 border-secondary-subtle bg-secondary-subtle bg-gradient text-dark p-3">
         <div class="row">
-            <div class="col">
-                <h2 class="text-lg-center text-md-start fw-bold text-light mt-3">User's Profile</h2>
+            <div class="col-lg-4 d-flex flex-column align-items-center">
+                <img src="./resourses/profilepic.webp" alt="Profile Picture" class="img-fluid mb-3" style="width: 150px;">
+                <div class="d-lg-flex justify-content-lg-center d-flex flex-column col-12 col-lg-5 gap-2 mb-3">
+                    <a href="#" class="btn btn-secondary bg-gradient text-dark-subtle border border-2 border-secondary text-center rounded">GitHub</a>
+                    <a href="#" class="btn btn-secondary bg-gradient text-dark-subtle border border-2 border-secondary text-center rounded">Facebook</a>
+                    <a href="#" class="btn btn-secondary bg-gradient text-dark-subtle border border-2 border-secondary text-center rounded">Instagram</a>
+                </div>
+            </div>      
+            <div class="col-lg-8">
+                <h2 class="text-lg-center text-start fw-bold text-dark mt-3">User's Profile</h2>
                 <div class="row d-flex justify-content-lg-center">
-                    <form class="col-lg-6">
+                    <form class="col-lg-10">
                         <div class="form-group">
                             <label for="exampleInputEmail1" class="mt-3">Email address</label>
                             <input type="email" class="form-control mb-3" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Enter email">
+                                aria-describedby="emailHelp" placeholder="Change email">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputPassword1">First and Last name</label>
-                            <input class="form-control" id="exampleInputPassword1" placeholder="Enter names">
+                            <input class="form-control" id="exampleInputPassword1" placeholder="Change name">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputPassword1" class="mt-3">Phone number</label>
                             <div class="input-group">
                                 <span class="input-group-text bg-white border">
-                                    <img src="./resourses/bulgaria.png" alt="Bulgarian flag"
-                                        title="Bulgarian Flag" style="width: 24px; height: 24px;">
+                                    <img src="./resourses/bulgaria.png" alt="Bulgarian flag" title="Bulgarian Flag"
+                                        style="width: 24px; height: 24px;">
                                 </span>
-                                <input type="tel" id="phoneInput" class="form-control" placeholder="Enter phone number">
+                                <input type="tel" id="phoneInput" class="form-control"
+                                    placeholder="Change phone number">
                             </div>
                         </div>
                         <div class="form-check mt-3 mb-3">
@@ -58,17 +71,20 @@
                         </div>
                         <div class="d-flex justify-content-center mb-3">
                             <div class="form-check form-check-inline">
-                                <input type="radio" id="customRadioInline1" name="customRadioInline1" class="form-check-input">
+                                <input type="radio" id="customRadioInline1" name="customRadioInline1"
+                                    class="form-check-input">
                                 <label class="form-check-label" for="customRadioInline1">Male</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="form-check-input">
+                                <input type="radio" id="customRadioInline2" name="customRadioInline1"
+                                    class="form-check-input">
                                 <label class="form-check-label" for="customRadioInline2">Female</label>
                             </div>
                         </div>
 
                         <div class="dropdown text-center">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Preferred Recipes
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -77,10 +93,11 @@
                                 <li><a class="dropdown-item" href="#">Desserts</a></li>
                             </ul>
                         </div>
+                        <div class="d-lg-flex justify-content-lg-center mt-3 mb-3">
+                            <button type="button" class="btn btn-warning bg-gradient text-light col-lg-2 col-12 mb-3" data-bs-toggle="modal"
+                                data-bs-target="#saveModal">Save</button>
+                        </div>
                     </form>
-                </div>
-                <div class="d-flex justify-content-center mt-3 mb-3">
-                    <button type="button" class="btn btn-warning text-light col-lg-2 col-md-12 mb-3" data-bs-toggle="modal" data-bs-target="#saveModal">Save</button>
                 </div>
             </div>
         </div>
@@ -98,7 +115,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-warning">Ok</button>
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Ok</button>
                 </div>
             </div>
         </div>
