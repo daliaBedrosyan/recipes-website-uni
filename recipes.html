@@ -19,10 +19,10 @@
 </head>
 
 <body class="bg-dark-subtle">
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-black">
         <div class="container">
             <div class="d-flex align-items-center">
-                <a class="navbar-brand mb-0">Recipes World</a>
+                <a class="navbar-brand mb-0 text-white">Recipes World</a>
                 <img src="./resourses/pizza.png" alt="Pizza Logo" class="img-fluid ms-2" style="width: 30px;">
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -32,9 +32,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="recipes.html">Recipes</a></li>
-                    <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="recipes.html">Recipes</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="profile.html">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
                     <li class="nav-item"><a class="btn btn-outline-secondary border-2" href="index.html">Logout</a></li>
                 </ul>
             </div>
@@ -42,16 +42,18 @@
     </nav>
 
     <div class="container ">
-        <h2 class="text-lg-center text-start fw-bold text-light mt-3">Recipes</h2>
+        <h2 class="text-lg-center text-start fw-bold text-warning mt-3">Recipes</h2>
         <div class="row">
             <div class="col-lg-4 mt-2">
                 <div class="card">
-                    <div class="card-header">Chicken Alfredo</div>
+                    <div class="card-header text-black text-center fw-bold">Chicken Alfredo</div>
                     <div class="card-body">
                         <img src="./resourses/chicken-alfredo.jpg" alt="Chicken Alfredo" class="img-fluid mb-3">
                         <p class="card-text">Creamy pasta with grilled chicken, garlic, and Parmesan cheese sauce.</p>
+                        <hr>
                         <p class="card-text">
                         <div class="fw-bold">Preparation Time:</div> 25 minutes.</p>
+                        <hr>
                         <p class="card-text">
                         <div class="fw-bold">Ingredients:</div> 2 chicken breasts, grilled and sliced
                         300g fettuccine pasta
@@ -64,11 +66,16 @@
                         <div class="d-flex flex-row col-lg-12 text-center">
                             <a href="#"
                                 class="btn btn-warning text-white col-12 col-lg-6 l-1 d-flex justify-content-center align-items-center">View
-                                Recipe</a>
+                                Recipe<span><img src="./resourses/view-more.png" class="img-fluid mx-2"
+                                        style="width: 20px;" alt=""></span></a>
                             <a href="#"
-                                class="btn btn-primary text-white col-12 col-lg-3 mx-1 d-lg-flex d-none justify-content-center align-items-center">Like</a>
+                                class="btn btn-primary text-white col-12 col-lg-3 mx-1 d-lg-flex d-none justify-content-center align-items-center">Like<span><img
+                                        src="./resourses/like.png" class="img-fluid mx-2 mb-1" style="width: 20px;"
+                                        alt=""></span></a>
                             <a href="#"
-                                class="btn btn-danger text-white col-12 col-lg-3 l-1 d-lg-flex d-none justify-content-center align-items-center">Share</a>
+                                class="btn btn-danger text-white col-12 col-lg-3 l-1 d-lg-flex d-none justify-content-center align-items-center">Share<span><img
+                                        src="./resourses/share.png" class="img-fluid mx-2 mb-1" style="width: 20px;"
+                                        alt=""></span></a></a>
                         </div>
                     </div>
                 </div>
@@ -76,12 +83,14 @@
 
             <div class="col-lg-4 mt-2">
                 <div class="card">
-                    <div class="card-header">Spaghetti Carbonara</div>
+                    <div class="card-header text-black text-center fw-bold">Spaghetti Carbonara</div>
                     <div class="card-body">
                         <img src="./resourses/spaghetti-carbonara.jpg" alt="Spaghetti Carbonara" class="img-fluid mb-3">
                         <p class="card-text">A classic Italian pasta dish with eggs, cheese, pancetta, and pepper.</p>
+                        <hr>
                         <p class="card-text">
                         <div class="fw-bold">Preparation Time:</div> 20 minutes.</p>
+                        <hr>
                         <p class="card-text">
                         <div class="fw-bold">Ingredients:</div> 2 chicken breasts, grilled and sliced
                         300g spaghetti
@@ -94,24 +103,31 @@
                         <div class="d-flex flex-row col-lg-12 text-center">
                             <a href="#"
                                 class="btn btn-warning text-white col-12 col-lg-6 l-1 d-flex justify-content-center align-items-center">View
-                                Recipe</a>
+                                Recipe<span><img src="./resourses/view-more.png" class="img-fluid mx-2"
+                                        style="width: 20px;" alt=""></span></a>
                             <a href="#"
-                                class="btn btn-primary text-white col-12 col-lg-3 mx-1 d-lg-flex d-none justify-content-center align-items-center">Like</a>
+                                class="btn btn-primary text-white col-12 col-lg-3 mx-1 d-lg-flex d-none justify-content-center align-items-center">Like<span><img
+                                        src="./resourses/like.png" class="img-fluid mx-2 mb-1" style="width: 20px;"
+                                        alt=""></span></a>
                             <a href="#"
-                                class="btn btn-danger text-white col-12 col-lg-3 l-1 d-lg-flex d-none justify-content-center align-items-center">Share</a>
+                                class="btn btn-danger text-white col-12 col-lg-3 l-1 d-lg-flex d-none justify-content-center align-items-center">Share<span><img
+                                        src="./resourses/share.png" class="img-fluid mx-2 mb-1" style="width: 20px;"
+                                        alt=""></span></a></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 mt-2">
                 <div class="card">
-                    <div class="card-header">Caesar Salad</div>
+                    <div class="card-header text-black text-center fw-bold">Caesar Salad</div>
                     <div class="card-body">
                         <img src="./resourses/caesar-salad.jpg" alt="Caesar Salad" class="img-fluid mb-3">
                         <p class="card-text">A fresh and crisp salad with Romaine lettuce, croutons, and Caesar
                             dressing.</p>
-                        <p class="card-text">
+                        <hr>
+                            <p class="card-text">
                         <div class="fw-bold">Preparation Time:</div> 15 minutes.</p>
+                        <hr>
                         <p class="card-text">
                         <div class="fw-bold">Ingredients:</div> 2 chicken breasts, grilled and sliced
                         2 heads of Romaine lettuce, chopped
@@ -123,24 +139,31 @@
                         <div class="d-flex flex-row col-lg-12 text-center">
                             <a href="#"
                                 class="btn btn-warning text-white col-12 col-lg-6 l-1 d-flex justify-content-center align-items-center">View
-                                Recipe</a>
+                                Recipe<span><img src="./resourses/view-more.png" class="img-fluid mx-2"
+                                        style="width: 20px;" alt=""></span></a>
                             <a href="#"
-                                class="btn btn-primary text-white col-12 col-lg-3 mx-1 d-lg-flex d-none justify-content-center align-items-center">Like</a>
+                                class="btn btn-primary text-white col-12 col-lg-3 mx-1 d-lg-flex d-none justify-content-center align-items-center">Like<span><img
+                                        src="./resourses/like.png" class="img-fluid mx-2 mb-1" style="width: 20px;"
+                                        alt=""></span></a>
                             <a href="#"
-                                class="btn btn-danger text-white col-12 col-lg-3 l-1 d-lg-flex d-none justify-content-center align-items-center">Share</a>
+                                class="btn btn-danger text-white col-12 col-lg-3 l-1 d-lg-flex d-none justify-content-center align-items-center">Share<span><img
+                                        src="./resourses/share.png" class="img-fluid mx-2 mb-1" style="width: 20px;"
+                                        alt=""></span></a></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 mt-2">
                 <div class="card">
-                    <div class="card-header">Vegetable Stir-Fry</div>
+                    <div class="card-header text-black text-center fw-bold">Vegetable Stir-Fry</div>
                     <div class="card-body">
                         <img src="./resourses/vegetable-stir-fry.jpg" alt="Vegetable Stir-Fry" class="img-fluid mb-3">
                         <p class="card-text">A healthy stir-fry with a variety of colorful vegetables, perfect with
                             rice.</p>
-                        <p class="card-text">
+                        <hr>
+                            <p class="card-text">
                         <div class="fw-bold">Preparation Time:</div> 20 minutes.</p>
+                        <hr>
                         <p class="card-text">
                         <div class="fw-bold">Ingredients:</div> 2 chicken breasts, grilled and sliced
                         1 red bell pepper, sliced
@@ -156,24 +179,31 @@
                         <div class="d-flex flex-row col-lg-12 text-center">
                             <a href="#"
                                 class="btn btn-warning text-white col-12 col-lg-6 l-1 d-flex justify-content-center align-items-center">View
-                                Recipe</a>
+                                Recipe<span><img src="./resourses/view-more.png" class="img-fluid mx-2"
+                                        style="width: 20px;" alt=""></span></a>
                             <a href="#"
-                                class="btn btn-primary text-white col-12 col-lg-3 mx-1 d-lg-flex d-none justify-content-center align-items-center">Like</a>
+                                class="btn btn-primary text-white col-12 col-lg-3 mx-1 d-lg-flex d-none justify-content-center align-items-center">Like<span><img
+                                        src="./resourses/like.png" class="img-fluid mx-2 mb-1" style="width: 20px;"
+                                        alt=""></span></a>
                             <a href="#"
-                                class="btn btn-danger text-white col-12 col-lg-3 l-1 d-lg-flex d-none justify-content-center align-items-center">Share</a>
+                                class="btn btn-danger text-white col-12 col-lg-3 l-1 d-lg-flex d-none justify-content-center align-items-center">Share<span><img
+                                        src="./resourses/share.png" class="img-fluid mx-2 mb-1" style="width: 20px;"
+                                        alt=""></span></a></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 mt-2">
                 <div class="card">
-                    <div class="card-header">Chocolate Chip Cookies</div>
+                    <div class="card-header text-black text-center fw-bold">Chocolate Chip Cookies</div>
                     <div class="card-body">
                         <img src="./resourses/chocolate-chip-cookies.jpg" alt="Chocolate Chip Cookies"
                             class="img-fluid mb-3">
                         <p class="card-text">A classic dessert with gooey chocolate chips and a crispy edge.</p>
+                        <hr>
                         <p class="card-text">
                         <div class="fw-bold">Preparation Time:</div> 30 minutes.</p>
+                        <hr>
                         <p class="card-text">
                         <div class="fw-bold">Ingredients:</div> 2 chicken breasts, grilled and sliced
                         1 cup unsalted butter, softened
@@ -189,24 +219,31 @@
                         <div class="d-flex flex-row col-lg-12 text-center">
                             <a href="#"
                                 class="btn btn-warning text-white col-12 col-lg-6 l-1 d-flex justify-content-center align-items-center">View
-                                Recipe</a>
+                                Recipe<span><img src="./resourses/view-more.png" class="img-fluid mx-2"
+                                        style="width: 20px;" alt=""></span></a>
                             <a href="#"
-                                class="btn btn-primary text-white col-12 col-lg-3 mx-1 d-lg-flex d-none justify-content-center align-items-center">Like</a>
+                                class="btn btn-primary text-white col-12 col-lg-3 mx-1 d-lg-flex d-none justify-content-center align-items-center">Like<span><img
+                                        src="./resourses/like.png" class="img-fluid mx-2 mb-1" style="width: 20px;"
+                                        alt=""></span></a>
                             <a href="#"
-                                class="btn btn-danger text-white col-12 col-lg-3 l-1 d-lg-flex d-none justify-content-center align-items-center">Share</a>
+                                class="btn btn-danger text-white col-12 col-lg-3 l-1 d-lg-flex d-none justify-content-center align-items-center">Share<span><img
+                                        src="./resourses/share.png" class="img-fluid mx-2 mb-1" style="width: 20px;"
+                                        alt=""></span></a></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 mt-2">
                 <div class="card">
-                    <div class="card-header">Beef Tacos</div>
+                    <div class="card-header text-black text-center fw-bold">Beef Tacos</div>
                     <div class="card-body">
                         <img src="./resourses/beef-tacos.jpg" alt="Beef Tacos" class="img-fluid mb-3">
                         <p class="card-text">Spicy ground beef in a soft taco shell, topped with lettuce, cheese, and
                             salsa.</p>
-                        <p class="card-text">
+                        <hr>
+                            <p class="card-text">
                         <div class="fw-bold">Preparation Time:</div> 20 minutes.</p>
+                        <hr>
                         <p class="card-text">
                         <div class="fw-bold">Ingredients:</div> 2 chicken breasts, grilled and sliced
                         500g ground beef
@@ -220,23 +257,30 @@
                         <div class="d-flex flex-row col-lg-12 text-center">
                             <a href="#"
                                 class="btn btn-warning text-white col-12 col-lg-6 l-1 d-flex justify-content-center align-items-center">View
-                                Recipe</a>
+                                Recipe<span><img src="./resourses/view-more.png" class="img-fluid mx-2"
+                                        style="width: 20px;" alt=""></span></a>
                             <a href="#"
-                                class="btn btn-primary text-white col-12 col-lg-3 mx-1 d-lg-flex d-none justify-content-center align-items-center">Like</a>
+                                class="btn btn-primary text-white col-12 col-lg-3 mx-1 d-lg-flex d-none justify-content-center align-items-center">Like<span><img
+                                        src="./resourses/like.png" class="img-fluid mx-2 mb-1" style="width: 20px;"
+                                        alt=""></span></a>
                             <a href="#"
-                                class="btn btn-danger text-white col-12 col-lg-3 l-1 d-lg-flex d-none justify-content-center align-items-center">Share</a>
+                                class="btn btn-danger text-white col-12 col-lg-3 l-1 d-lg-flex d-none justify-content-center align-items-center">Share<span><img
+                                        src="./resourses/share.png" class="img-fluid mx-2 mb-1" style="width: 20px;"
+                                        alt=""></span></a></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 mt-2">
                 <div class="card">
-                    <div class="card-header">Bruschetta</div>
+                    <div class="card-header text-black text-center fw-bold">Bruschetta</div>
                     <div class="card-body">
                         <img src="./resourses/bruschetta.jpg" alt="Bruschetta" class="img-fluid mb-3">
                         <p class="card-text">Toasted bread topped with tomatoes, basil, and balsamic glaze.</p>
+                        <hr>
                         <p class="card-text">
                         <div class="fw-bold">Preparation Time:</div> 15 minutes.</p>
+                        <hr>
                         <p class="card-text">
                         <div class="fw-bold">Ingredients:</div> 2 chicken breasts, grilled and sliced
                         1 baguette, sliced and toasted
@@ -249,23 +293,30 @@
                         <div class="d-flex flex-row col-lg-12 text-center">
                             <a href="#"
                                 class="btn btn-warning text-white col-12 col-lg-6 l-1 d-flex justify-content-center align-items-center">View
-                                Recipe</a>
+                                Recipe<span><img src="./resourses/view-more.png" class="img-fluid mx-2"
+                                        style="width: 20px;" alt=""></span></a>
                             <a href="#"
-                                class="btn btn-primary text-white col-12 col-lg-3 mx-1 d-lg-flex d-none justify-content-center align-items-center">Like</a>
+                                class="btn btn-primary text-white col-12 col-lg-3 mx-1 d-lg-flex d-none justify-content-center align-items-center">Like<span><img
+                                        src="./resourses/like.png" class="img-fluid mx-2 mb-1" style="width: 20px;"
+                                        alt=""></span></a>
                             <a href="#"
-                                class="btn btn-danger text-white col-12 col-lg-3 l-1 d-lg-flex d-none justify-content-center align-items-center">Share</a>
+                                class="btn btn-danger text-white col-12 col-lg-3 l-1 d-lg-flex d-none justify-content-center align-items-center">Share<span><img
+                                        src="./resourses/share.png" class="img-fluid mx-2 mb-1" style="width: 20px;"
+                                        alt=""></span></a></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 mt-2">
                 <div class="card">
-                    <div class="card-header">Grilled Salmon</div>
+                    <div class="card-header text-black text-center fw-bold">Grilled Salmon</div>
                     <div class="card-body">
                         <img src="./resourses/grilled-salmon.jpg" alt="Grilled Salmon" class="img-fluid mb-3">
                         <p class="card-text">Fresh salmon fillets grilled to perfection with lemon and herbs.</p>
+                        <hr>
                         <p class="card-text">
                         <div class="fw-bold">Preparation Time:</div> 20 minutes.</p>
+                        <hr>
                         <p class="card-text">
                         <div class="fw-bold">Ingredients:</div> 2 chicken breasts, grilled and sliced
                         4 salmon fillets
@@ -278,23 +329,30 @@
                         <div class="d-flex flex-row col-lg-12 text-center">
                             <a href="#"
                                 class="btn btn-warning text-white col-12 col-lg-6 l-1 d-flex justify-content-center align-items-center">View
-                                Recipe</a>
+                                Recipe<span><img src="./resourses/view-more.png" class="img-fluid mx-2"
+                                        style="width: 20px;" alt=""></span></a>
                             <a href="#"
-                                class="btn btn-primary text-white col-12 col-lg-3 mx-1 d-lg-flex d-none justify-content-center align-items-center">Like</a>
+                                class="btn btn-primary text-white col-12 col-lg-3 mx-1 d-lg-flex d-none justify-content-center align-items-center">Like<span><img
+                                        src="./resourses/like.png" class="img-fluid mx-2 mb-1" style="width: 20px;"
+                                        alt=""></span></a>
                             <a href="#"
-                                class="btn btn-danger text-white col-12 col-lg-3 l-1 d-lg-flex d-none justify-content-center align-items-center">Share</a>
+                                class="btn btn-danger text-white col-12 col-lg-3 l-1 d-lg-flex d-none justify-content-center align-items-center">Share<span><img
+                                        src="./resourses/share.png" class="img-fluid mx-2 mb-1" style="width: 20px;"
+                                        alt=""></span></a></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 mt-2">
                 <div class="card">
-                    <div class="card-header">Cheesecake</div>
+                    <div class="card-header text-black text-center fw-bold">Cheesecake</div>
                     <div class="card-body">
                         <img src="./resourses/cheesecake.jpg" alt="Cheesecake" class="img-fluid mb-3">
                         <p class="card-text">A rich and creamy cheesecake topped with a berry compote.</p>
+                        <hr>
                         <p class="card-text">
                         <div class="fw-bold">Preparation Time:</div> 60 minutes. (plus cooling)</p>
+                        <hr>
                         <p class="card-text">
                         <div class="fw-bold">Ingredients:</div> 2 chicken breasts, grilled and sliced
                         2 cups cream cheese
@@ -308,24 +366,31 @@
                         <div class="d-flex flex-row col-lg-12 text-center">
                             <a href="#"
                                 class="btn btn-warning text-white col-12 col-lg-6 l-1 d-flex justify-content-center align-items-center">View
-                                Recipe</a>
+                                Recipe<span><img src="./resourses/view-more.png" class="img-fluid mx-2"
+                                        style="width: 20px;" alt=""></span></a>
                             <a href="#"
-                                class="btn btn-primary text-white col-12 col-lg-3 mx-1 d-lg-flex d-none justify-content-center align-items-center">Like</a>
+                                class="btn btn-primary text-white col-12 col-lg-3 mx-1 d-lg-flex d-none justify-content-center align-items-center">Like<span><img
+                                        src="./resourses/like.png" class="img-fluid mx-2 mb-1" style="width: 20px;"
+                                        alt=""></span></a>
                             <a href="#"
-                                class="btn btn-danger text-white col-12 col-lg-3 l-1 d-lg-flex d-none justify-content-center align-items-center">Share</a>
+                                class="btn btn-danger text-white col-12 col-lg-3 l-1 d-lg-flex d-none justify-content-center align-items-center">Share<span><img
+                                        src="./resourses/share.png" class="img-fluid mx-2 mb-1" style="width: 20px;"
+                                        alt=""></span></a></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 mt-2">
                 <div class="card">
-                    <div class="card-header">Chicken Parmesan</div>
+                    <div class="card-header text-black text-center fw-bold">Chicken Parmesan</div>
                     <div class="card-body">
                         <img src="./resourses/chicken-parmesan.jpg" alt="Chicken Parmesan" class="img-fluid mb-3">
                         <p class="card-text">Breaded chicken topped with marinara sauce and melted mozzarella.</p>
+                        <hr>
                         <p class="card-text">
                         <div class="fw-bold">Preparation Time:</div> 40 minutes.
                         </p>
+                        <hr>
                         <p class="card-text">
                         <div class="fw-bold">Ingredients:</div> 2 chicken breasts, grilled and sliced
                         2 chicken breasts
@@ -340,23 +405,30 @@
                         <div class="d-flex flex-row col-lg-12 text-center">
                             <a href="#"
                                 class="btn btn-warning text-white col-12 col-lg-6 l-1 d-flex justify-content-center align-items-center">View
-                                Recipe</a>
+                                Recipe<span><img src="./resourses/view-more.png" class="img-fluid mx-2"
+                                        style="width: 20px;" alt=""></span></a>
                             <a href="#"
-                                class="btn btn-primary text-white col-12 col-lg-3 mx-1 d-lg-flex d-none justify-content-center align-items-center">Like</a>
+                                class="btn btn-primary text-white col-12 col-lg-3 mx-1 d-lg-flex d-none justify-content-center align-items-center">Like<span><img
+                                        src="./resourses/like.png" class="img-fluid mx-2 mb-1" style="width: 20px;"
+                                        alt=""></span></a>
                             <a href="#"
-                                class="btn btn-danger text-white col-12 col-lg-3 l-1 d-lg-flex d-none justify-content-center align-items-center">Share</a>
+                                class="btn btn-danger text-white col-12 col-lg-3 l-1 d-lg-flex d-none justify-content-center align-items-center">Share<span><img
+                                        src="./resourses/share.png" class="img-fluid mx-2 mb-1" style="width: 20px;"
+                                        alt=""></span></a></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 mt-2">
                 <div class="card">
-                    <div class="card-header">Caprese Salad</div>
+                    <div class="card-header text-black text-center fw-bold">Caprese Salad</div>
                     <div class="card-body">
                         <img src="./resourses/caprese-salad.jpg" alt="Caprese Salad" class="img-fluid mb-3">
                         <p class="card-text">Fresh mozzarella, tomatoes, and basil drizzled with olive oil.</p>
+                        <hr>
                         <p class="card-text">
                         <div class="fw-bold">Preparation Time:</div> 10 minutes.</p>
+                        <hr>
                         <p class="card-text">
                         <div class="fw-bold">Ingredients:</div> 2 chicken breasts, grilled and sliced
                         4 large tomatoes, sliced
@@ -369,23 +441,30 @@
                         <div class="d-flex flex-row col-lg-12 text-center">
                             <a href="#"
                                 class="btn btn-warning text-white col-12 col-lg-6 l-1 d-flex justify-content-center align-items-center">View
-                                Recipe</a>
+                                Recipe<span><img src="./resourses/view-more.png" class="img-fluid mx-2"
+                                        style="width: 20px;" alt=""></span></a>
                             <a href="#"
-                                class="btn btn-primary text-white col-12 col-lg-3 mx-1 d-lg-flex d-none justify-content-center align-items-center">Like</a>
+                                class="btn btn-primary text-white col-12 col-lg-3 mx-1 d-lg-flex d-none justify-content-center align-items-center">Like<span><img
+                                        src="./resourses/like.png" class="img-fluid mx-2 mb-1" style="width: 20px;"
+                                        alt=""></span></a>
                             <a href="#"
-                                class="btn btn-danger text-white col-12 col-lg-3 l-1 d-lg-flex d-none justify-content-center align-items-center">Share</a>
+                                class="btn btn-danger text-white col-12 col-lg-3 l-1 d-lg-flex d-none justify-content-center align-items-center">Share<span><img
+                                        src="./resourses/share.png" class="img-fluid mx-2 mb-1" style="width: 20px;"
+                                        alt=""></span></a></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 mt-2">
                 <div class="card">
-                    <div class="card-header">Chocolate Mousse</div>
+                    <div class="card-header text-black text-center fw-bold">Chocolate Mousse</div>
                     <div class="card-body">
                         <img src="./resourses/chocolate-mousse.jpg" alt="Chocolate Mousse" class="img-fluid mb-3">
                         <p class="card-text">A rich, creamy mousse made with dark chocolate and whipped cream.</p>
+                        <hr>
                         <p class="card-text">
                         <div class="fw-bold">Preparation Time:</div> 45 minutes.</p>
+                        <hr>
                         <p class="card-text">
                         <div class="fw-bold">Ingredients:</div> 2 chicken breasts, grilled and sliced
                         200g dark chocolate, melted
@@ -397,11 +476,16 @@
                         <div class="d-flex flex-row col-lg-12 text-center">
                             <a href="#"
                                 class="btn btn-warning text-white col-12 col-lg-6 l-1 d-flex justify-content-center align-items-center">View
-                                Recipe</a>
+                                Recipe<span><img src="./resourses/view-more.png" class="img-fluid mx-2"
+                                        style="width: 20px;" alt=""></span></a>
                             <a href="#"
-                                class="btn btn-primary text-white col-12 col-lg-3 mx-1 d-lg-flex d-none justify-content-center align-items-center">Like</a>
+                                class="btn btn-primary text-white col-12 col-lg-3 mx-1 d-lg-flex d-none justify-content-center align-items-center">Like<span><img
+                                        src="./resourses/like.png" class="img-fluid mx-2 mb-1" style="width: 20px;"
+                                        alt=""></span></a>
                             <a href="#"
-                                class="btn btn-danger text-white col-12 col-lg-3 l-1 d-lg-flex d-none justify-content-center align-items-center">Share</a>
+                                class="btn btn-danger text-white col-12 col-lg-3 l-1 d-lg-flex d-none justify-content-center align-items-center">Share<span><img
+                                        src="./resourses/share.png" class="img-fluid mx-2 mb-1" style="width: 20px;"
+                                        alt=""></span></a></a>
                         </div>
                     </div>
                 </div>
